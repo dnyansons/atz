@@ -1,0 +1,42 @@
+.autocomplete{position:fixed;}
+.ui-menu-item{font-size:14px;padding:12px;}
+.small_tabth{text-align:center;}
+.small_tabtd,th{padding:3px;}
+.ui-menu-item-wrapper{padding:4px;}
+.header-search-form input[type="text"], input[type="email"], input[type="submit"]{width:100%;}
+.sc-hd-m-notify .sc-hd-ms-order .sc-hd-ms-order-entry a{color:#666;line-height:30px;padding:0 20px;}
+.sc-hd-normal.sc-hd-box-m-cart .sc-hd-m-ws-cart{display:block;}
+.sc-hd-normal .sc-hd-m-ws-cart{position:relative;height:35px;width:100px;vertical-align:top;padding-top:6px;margin-left:-125px;top:5px;z-index:5;display:none;}
+.sc-hd .sc-hd-float-r{float:right;}
+.alife-bc-icbu-simple-shopping-cart{position:relative;display:inline-block;padding:0px 4px;box-shadow:2px 2px 2px transparent;border:1px solid transparent;}
+.sc-hd a{text-decoration:none;color:#1686CC;}
+a:link, a:visited{color:#2192d9;}
+.alife-bc-icbu-simple-shopping-cart-link{white-space:nowrap;}
+.alife-bc-icbu-simple-shopping-cart-icon{display:inline-block;margin-top:0px;vertical-align:middle;}
+.alife-bc-icbu-simple-shopping-cart-panel{background:#fff;position:absolute;width:300px;top:100%;right:-100px;box-shadow:2px 2px 2px #eee;border:1px solid #eee;z-index:99999;}
+.alife-bc-icbu-simple-shopping-cart-wrapper{display:inline-block;vertical-align:middle;margin:-6px 0 0 4px;}
+.alife-bc-icbu-simple-shopping-cart-count{background:#bd081b;padding:0 5px;width:1rem;font-size:12px;border-radius:20px;line-height:14px;text-align:center;color:#fff;margin:0 auto; position: absolute; top: -10px;left: 33px;}
+.alife-bc-icbu-simple-shopping-cart-panel-con{position:relative;overflow:auto;}
+.alife-bc-icbu-simple-shopping-cart-panel-bd{height:auto;max-height:400px;margin:0 0 58px;overflow:auto;position:relative;z-index:10;}
+.alife-bc-icbu-simple-shopping-cart-panel-bd-con{position:relative;}
+.alife-bc-icbu-simple-shopping-cart-panel-ft{padding:12px 0;background:#fff;text-align:center;position:absolute;bottom:0;width:100%;}
+.alife-bc-icbu-simple-shopping-cart-item-supplierName{background:#f2f3f7;font-family:Roboto;font-size:12px;text-align:left;line-height:20px;padding:4px 12px;}
+.alife-bc-icbu-simple-shopping-cart-item-spu{padding:16px 12px 0;}
+.sc-hd a{text-decoration:none;color:#1686CC;}
+.alife-bc-icbu-simple-shopping-cart-item-supplierName a{color:#4a4a4a!important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;display:block;}
+.alife-bc-icbu-simple-shopping-cart-item-spu-img{position:relative;width:52px;height:52px;display:inline-block;float:left;border:1px solid #d8d8d8;}
+.alife-bc-icbu-simple-shopping-cart-item-spu-name{font-family:Roboto;font-size:12px;margin:0 0 0 66px;line-height:20px;}
+.alife-bc-icbu-simple-shopping-cart-item-spu:last-child .alife-bc-icbu-simple-shopping-cart-item-sku-list{border-bottom:1px solid transparent;}
+.alife-bc-icbu-simple-shopping-cart-item-sku-list{margin:16px 0 0 66px;border-bottom:1px solid #d8d8d8;}
+.alife-bc-icbu-simple-shopping-cart-item-sku-item{margin:0 0 16px;}
+.alife-bc-icbu-simple-shopping-cart-item-sku-properties{font-size:12px;line-height:20px;color:#999;}
+.alife-bc-icbu-simple-shopping-cart-item-sku-properties-item{margin:0 9px 0 0;position:relative;}
+.alife-bc-icbu-simple-shopping-cart-item-sku-price{font-size:14px;line-height:22px;}
+.alife-bc-icbu-simple-shopping-cart-item-sku-price span{color:#ff7c00;}
+.s-shown{display:none !important;}
+.alife-bc-icbu-simple-shopping-cart:hover .s-shown{display:block !important;}
+.alife-bc-icbu-simple-shopping-cart-panel-ft{padding:12px 0;background:#fff;text-align:center;position:absolute;bottom:0;width:100%;}
+.sc-hd a{text-decoration:none;color:#1686CC;}
+a:link, a:visited{color:#2192d9;}
+.alife-bc-icbu-simple-shopping-cart-btn{font-family:Roboto;background:#bd081b;font-weight:700;font-size:14px;padding:4px 0;line-height:22px;text-align:center;width:256px;display:inline-block;cursor:pointer;border-radius:4px;color:#fff!important;}
+.alife-bc-icbu-simple-shopping-cart-panel-bd-bg{background-image:linear-gradient(-180deg,transparent 68%,rgba(0,0,0,.03));width:100%;height:58px;position:absolute;bottom:53px;left:0;}

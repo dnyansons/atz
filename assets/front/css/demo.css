@@ -1,0 +1,63 @@
+#menunew:not(.mm-menu){display:none;}
+.header,
+.content,
+.footer{text-align:center;}
+.header,
+.footer{background:#777;font-size:16px;font-weight:bold;color:#fff;line-height:25px;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;padding:0 50px;}
+.header.fixed{position:fixed;top:0;left:0;}
+.footer.fixed{position:fixed;bottom:0;left:0;}
+.header a{display:block;width:28px;height:18px;padding:11px;position:absolute;top:0;left:0;}
+.header a:before,
+.header a:after{content:'';display:block;background:#fff;height:2px;}
+.header a span{background:#fff;display:block;height:2px;margin:6px 0;}
+.content{padding:0 !important;}
+.Home{background-image:url("../../assets/images/icons.svg");background-position:0 -641px;background-repeat:no-repeat;}
+.agriculture{background-image:url("../../assets/images/icons.svg");background-position:0 0;background-repeat:no-repeat;}
+.apparel{background-image:url("../../assets/images/icons.svg");background-position:0 -64px;background-repeat:no-repeat;}
+.vehicles{background-image:url("../../assets/images/icons.svg");background-position:0 -96px;background-repeat:no-repeat;}
+.beauty{background-image:url("../../assets/images/icons.svg");background-position:0 -160px;background-repeat:no-repeat;}
+.Business{background-image:url("../../assets/images/icons.svg");background-position:0 -1056px;background-repeat:no-repeat;}
+.Chemicals{background-image:url("../../assets/images/icons.svg");background-position:0 -193px;background-repeat:no-repeat;}
+.Construction{background-image:url("../../assets/images/icons.svg");background-position:0 -224px;background-repeat:no-repeat;}
+.Electrical{background-image:url("../../assets/images/icons.svg");background-position:0 -320px;background-repeat:no-repeat;}
+.Energy{background-image:url("../../assets/images/icons.svg");background-position:0 -759px;background-repeat:no-repeat;}
+.Fashion{background-image:url("../../assets/images/icons.svg");background-position:0 -448px;background-repeat:no-repeat;}
+.Machinery{background-image:url("../../assets/images/icons.svg");background-position:0 -829px;background-repeat:no-repeat;}
+.Fabrication{background-image:url("../../assets/images/icons.svg");background-position:0 -737px;background-repeat:no-repeat;}
+.Minerals{background-image:url("../../assets/images/icons.svg");background-position:0 -705px;background-repeat:no-repeat;}
+.Office{background-image:url("../../assets/images/icons.svg");background-position:0 -897px;background-repeat:no-repeat;}
+.Packaging{background-image:url("../../assets/images/icons.svg");background-position:0 -992px;background-repeat:no-repeat;}
+.Rubber{background-image:url("../../assets/images/icons.svg");background-position:0 -735px;background-repeat:no-repeat;}
+.Security{background-image:url("../../assets/images/icons.svg");background-position:0 -510px;background-repeat:no-repeat;}
+.Service{background-image:url("../../assets/images/icons.svg");background-position:0 -1219px;background-repeat:no-repeat;}
+.Shoes{background-image:url("../../assets/images/icons.svg");background-position:0 -1088px;background-repeat:no-repeat;}
+.Sports{background-image:url("../../assets/images/icons.svg");background-position:0 -352px;background-repeat:no-repeat;}
+.Telecommunications{background-image:url("../../assets/images/icons.svg");background-position:0 -959px;background-repeat:no-repeat;}
+.Textiles{background-image:url("../../assets/images/icons.svg");background-position:0 -802px;background-repeat:no-repeat;}
+.Timepieces{background-image:url("../../assets/images/icons.svg");background-position:0 -1246px;background-repeat:no-repeat;}
+.Tools{background-image:url("../../assets/images/icons.svg");background-position:0 -1152px;background-repeat:no-repeat;}
+.Toys{background-image:url("../../assets/images/icons.svg");background-position:0 -1184px;background-repeat:no-repeat;}
+.dims{width:32px;height:32px;float:left;padding-right:40px;}
+.footer{margin:0px 0px !important;}
+.footer h5{font-size:16px;}
+.col_white_amrc{color:#FFF;}
+footer{width:100%;background-color:#263238;min-height:250px;}
+.pt2{padding-top:0px;}
+footer p{font-size:13px;color:#CCC;padding-bottom:0px;margin-bottom:0px !important;}
+.mb10{padding-bottom:15px;}
+.footer_ul_amrc{margin:0px;list-style-type:none;font-size:14px;padding:0px 0px 10px 0px;}
+.footer_ul_amrc li{padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{color:#fff !important;font-size:12px;font-weight:400;}
+ul.white li a{color:#fff !important;font-weight:400;font-size:12px;}
+ul.white1 li a{color:#fff !important;font-weight:400;}
+.ddd .white a{color:#fff;}
+.ddd{padding-top:20px;padding-bottom:0px;}
+.footer_ul_amrc li a:hover{color:#fff;text-decoration:none;}
+.fleft{float:left;}
+.padding-right{padding-right:10px;}
+.footer_ul2_amrc{margin:0px;list-style-type:none;padding:0px;}
+.footer_ul2_amrc li p{display:table;}
+.footer_ul2_amrc li a:hover{text-decoration:none;}
+.footer_ul2_amrc li i{margin-top:5px;}
+.bottom_border{border-bottom:1px solid #323f45;padding:30px;}
+.foote_bottom_ul_amrc{list-style-type:none;padding:0px;display:table;margin-top:10px;margin-right:auto;margin-bottom:10px;margin-left:auto;}

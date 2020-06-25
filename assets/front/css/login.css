@@ -1,0 +1,99 @@
+ 	
+	.login-container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.login-form-2{
+    padding:70px 50px;
+    background: #fff;
+	left:62.2%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btnSubmit{
+    font-weight: 600;
+    width: 50%;
+    color: #282726;
+    background-color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding:2%;
+}
+.btnForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.btnForgetPwd:hover{
+    text-decoration:none;
+    color:#fff;
+}
+
+.social-login-btn {
+  margin: 5px;
+  padding:4px 10px;;
+  color:#fff;
+  width:40px;
+}
+
+.social-login-btn i
+{
+	 color:#fff;
+}
+
+.social-google {
+  background-color: #da573b;
+  border-color: #be5238;
+  color:#fff;
+}
+.social-google:hover{
+  background-color: #be5238;
+  border-color: #9b4631;
+}
+
+
+.social-facebook {
+  background-color: #4c699e;
+  border-color: #47618d;
+   color:#fff;
+}
+.social-facebook:hover {
+  background-color: #47618d;
+  border-color: #3c5173;
+}
+
+.text-danger p
+{
+	color:red;
+}
+
+.notice-error, .notice-forbid {
+    border: 1px solid #f6c8b5;
+    background: #fceee8;
+	margin-bottom:10px;
+}
+.notice {
+    padding: 4px 12px;
+    line-height: 18px;
+    
+}
+.notice-error
+{
+	font-size:12px;
+}
+
+input[type="password"]{
+    line-height: 2;
+}
+
+#screen-banner{  
+    width: 100%; 
+    height: 600px; left: 0px; 
+    background: url('../images/banner/sign-in-wide.jpg') center center no-repeat rgb(245, 245, 245);
+	background-size:cover;
+}
+
+.form-control{ 
+    font-size:14px !important;
+}

@@ -1,0 +1,286 @@
+html{
+    font-size: 8.53333px; 
+    overflow: auto; 
+    position: static; 
+    height: auto;
+}
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration:none !important;
+    color:#000 !important ;
+}
+.select-sku {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.select-sku .product-info-container {
+    flex: 0 0 11.2rem;
+    overflow: hidden;
+}
+.select-sku .select-sku-container {
+    flex: 1;
+    padding-bottom: 2.0rem;
+    overflow: scroll;
+}
+.select-container-wrap {
+    padding: 0 1.5rem;
+    margin-top: 1.2rem;
+}
+.select-container-wrap .select-container-title {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.2rem;
+    color: #666;
+    font-weight: normal;
+}
+.select-container-wrap .select-container-title .select-container-selected-name {
+    color: #333;
+}
+.select-container-wrap .select-container-items {
+    font-size: 0;
+}
+.select-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 1.2rem;
+    margin-bottom: 1.2rem;
+    vertical-align: top;
+    opacity: 0.3;
+    border: 1px solid #CCCCCC;
+}
+.select-item .select-item-block {
+    width: 4.6rem;
+    height: 4.6rem;
+}
+.select-item .select-item-text {
+    font-size: 1.4rem;
+    color: #333;
+    line-height: 1.4rem;
+    padding: 0.6rem 1.5rem;
+}
+.select-item .select-item-selected {
+    display: none;
+}
+.select-item.select-item-checked {
+    border-color: #FF6A00;
+}
+.select-item.select-item-checked .select-item-selected {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    border: 1px solid #FF6A00;
+}
+.select-item.select-item-checked .select-item-selected:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 21px solid #FF6A00;
+    border-left: 21px solid transparent;
+    content: '';
+}
+.select-item.select-item-checked .select-item-selected .iconfont-right {
+    display: inline-block;
+    position: absolute;
+    right: -0.2rem;
+    top: -0.1rem;
+    z-index: 1;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.select-item.select-item-checked .select-item-selected .iconfont-right:before {
+    color: #fff;
+}
+.select-item.select-item-enable {
+    opacity: 1;
+}
+.quantity-container-wrap {
+    padding: 0 1.5rem;
+    margin-top: 1.2rem;
+}
+.quantity-container-wrap .quantity-container-title {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.2rem;
+    color: #666;
+    font-weight: normal;
+}
+.quantity-container-wrap .quantity-container-items {
+    font-size: 0;
+}
+.quantity-container-wrap .quantity-container-items .quantity-container-item-unit {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 2.8rem;
+    font-size: 1.4rem;
+    color: #333;
+    margin: 0 1.2rem;
+}
+.select-num-wrap {
+    display: inline-block;
+    width:100px;
+    height: 2.8rem;
+    font-size: 0;
+    border-radius: 0.5rem;
+    line-height: 2.6rem;
+    text-align: center;
+    overflow: hidden;
+}
+.select-num-wrap .select-num-btn {
+    display: inline-block;
+    vertical-align: top;
+    width:22px;
+    height:24px;
+    font-size:16px;
+    color: #999;
+}
+.select-num-wrap .disableDescBtn {
+    background: #F7F8FA;
+}
+.select-num-wrap .select-num-input {
+    display: inline-block;
+    vertical-align: top;
+    width: 5.6rem;
+    height: 2.8rem;
+    box-sizing: border-box;
+    background: #F7F8FA;
+    color: #333;
+    outline: none;
+    border: none;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.product-info-wrap {
+    display: flex;
+    height:10rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid #DCDEE3;
+}
+.product-info-wrap .product-info-img {
+    flex: 0 0 9.6rem;
+    width: 9.6rem;
+    height: 9.6rem;
+    border-radius: 0.5rem;
+}
+.product-info-wrap .product-info-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.8rem;
+}
+.product-info-wrap .product-info-content p {
+    margin: 0;
+}
+.product-info-wrap .product-info-content .product-info-title {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    max-height: 3.2rem;
+    color: #333;
+    font-weight: normal;
+}
+.product-info-wrap .product-info-content .product-info-min-order {
+    color: #999;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    height: 2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+}
+.product-info-wrap .product-info-content .product-info-price-wrap {
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    height: 1.6rem;
+    color: #999;
+}
+.product-info-wrap .product-info-content .product-info-price-wrap .product-info-price {
+    font-size: 1.4rem;
+    color: #FF6A00;
+}
+.close {
+    float: none;
+    opacity: 1;
+}
+.select-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 1.2rem;
+    margin-bottom: 1.2rem;
+    vertical-align: top;
+    opacity: 0.3;
+    border: 1px solid #CCCCCC;
+}
+.select-item .select-item-text {
+    font-size: 1.4rem;
+    color: #333;
+    line-height: 1.4rem;
+    padding: 0.6rem 1.5rem;
+}
+
+body{
+    font-size: 12px; 
+    height: auto; 
+    overflow: auto;
+}
+
+.chec-radio li.pz {
+    display: inline;
+}
+.chec-radio label.radio-inline input[type="checkbox"] {
+    display: none;
+}
+.chec-radio label.radio-inline input[type="checkbox"]:checked+div {
+    color: #7f0808;
+    background-color:none;
+}
+.chec-radio .radio-inline .clab {
+    cursor: pointer;				
+    padding:6px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7f0808;
+    position: relative;   
+    float: left;
+    margin: 0;
+    border: 1px solid #7f0808;
+}
+.chec-radio label.radio-inline input[type="checkbox"]:checked+div:before {
+    content: "\f00c";
+    margin-right: 5px;
+    font-family: FontAwesome;
+}
+.chec-radio label.radio-inline input[type="radio"] {
+    display: none;
+}
+.chec-radio label.radio-inline input[type="radio"]:checked+div {
+    color: #7f0808;
+    background-color:none;
+}
+.chec-radio label.radio-inline input[type="radio"]:checked+div:before {
+    content: "\f00c";
+    margin-right: 5px;
+    font-family: FontAwesome;
+}
+#spec_value
+{
+    margin-bottom:0px;
+}
+
+.select-item .select-item-text {
+    padding: 0px !important;
+}
